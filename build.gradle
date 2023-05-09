@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation 'edu.stanford.nlp:stanford-corenlp:4.5.2'
+    implementation 'edu.stanford.nlp:stanford-corenlp:4.3.1:models'
+    implementation 'com.ibm.icu:icu4j:72.1'
+    implementation 'de.unihd.dbs:heideltime-lang:2021.1'
+    implementation 'de.unihd.dbs:heideltime-kit:2.2.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+}
+
+test {
+    useJUnitPlatform()
+}

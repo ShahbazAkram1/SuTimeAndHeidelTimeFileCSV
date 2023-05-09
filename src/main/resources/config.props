@@ -1,0 +1,12 @@
+language=English
+documentType=news
+outputFormat=TIMEML
+inputType=PLAIN
+sentencePerLine=false
+preserveInterpunction=false
+normalize=false
+date=DATE
+time=TIME
+location=LOC
+doctitle=
+verbosity=1
